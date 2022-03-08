@@ -61,7 +61,7 @@ int main(){
         std::cout << "Introduce el número de la opción deseada: \n";
         std::cout << "1. Asignar clave \n";
         std::cout << "2. Asignar clave aleatoria \n";
-        std::cout << "3. Decodificar \n";
+        std::cout << "3. Codificar \n";
         std::cout << "4. Salir \n";
         std::cin >> opcion;
 
