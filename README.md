@@ -1,8 +1,8 @@
-# Práctica 1. Seguridad en Sistemas Informáticos
+# Práctica 2. Seguridad en Sistemas Informáticos
 <u>Nombre:</u> Leonardo Alfonso Cruz Rodríguez  
 <u>Correo:</u> alu0101233093@ull.edu.es  
 
-Este programa hecho en C++ permite codificar y decodificar palabras utilizando el cifrado de Vernam.
+Este programa hecho en C++ permite codificar y decodificar palabras utilizando el cifrado RC4.
 
 ## Aspectos relevantes del cifrado
 Para que las palabras codificadas se puedan representar por consola, he decidido restarle 65 unidades al código ASCII de todas las letras.
@@ -14,11 +14,9 @@ entre `ASCII_MAX` y `ASCII_MIN`.
 ## Directorio
 ### /build
 Este directorio contiene los archivos generados por el make.
-### /include
-Este directorio contiene el fichero con la declaración de la clase `persona`.
 ### /src
-Este directorio contiene el fichero `main.cc` (con el código del menú y las impresiones por consola) y el fichero `persona.cc` (con la definición de la clase persona).
+Este directorio contiene el fichero `main.cc` (con el código del menú y las impresiones por consola).
 ### Makefile
 Permite compilar todos los archivos con el comando `make`.
-### vernam
-Archivo ejecutable para iniciar el programa. Para usarlo se debe teclear en consola `./vernam`
+### RC4
+Archivo ejecutable para iniciar el programa. Para usarlo se debe teclear en consola `./RC4`
